@@ -179,7 +179,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Window colors
-set $bgcolor  #EBCB8B
+set $bgcolor  #88C0D0
 set $ibgcolor #5E81AC
 set $textcolor #607179
 set $ubgcolor #ff0000
@@ -214,7 +214,7 @@ bar {
     }
 }
 
-exec_always --no-startup-id feh --bg-scale /home/nate/Downloads/python.png
+exec_always --no-startup-id feh --bg-scale /home/nate/Downloads/nord-aquarium.png
 
 #polkit for i3wm w/voidlinux
 
