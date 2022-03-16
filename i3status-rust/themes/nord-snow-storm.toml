@@ -1,0 +1,13 @@
+idle_bg = "#A0A6B2" 
+idle_fg = "#D8DEE9" 
+info_bg = "#5C626E"
+info_fg = "#2e3440" 
+good_bg = "#a3be86" # green
+good_fg = "#2e3440" 
+warning_bg = "#ebcb8b" # yellow
+warning_fg = "#2e3440" 
+critical_bg = "#bf616a" 
+critical_fg = "#2e3440" 
+separator = "\ue0b2"
+separator_bg = "auto"
+separator_fg = "auto"

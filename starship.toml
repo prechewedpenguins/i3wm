@@ -1,0 +1,41 @@
+add_newline = false
+
+format = """
+[┌───────────────────>](white)
+[│](white)$time$username$hostname$directory$rust$package$cmd_duration
+[└─>](white) """
+
+[cmd_duration]
+show_milliseconds = true
+format = "took [$duration](bold yellow) "
+disabled = false
+show_notifications = true   
+
+[time]
+disabled = false
+format = '[\[ $time \]](bold green)'
+
+
+[hostname]
+ssh_only = false
+format = 'on [$hostname](blue bold) '
+trim_at = "."
+disabled = false
+
+[character]
+success_symbol = "[❯](bold green)" 
+error_symbol = "[>X<](bold red)"
+
+
+[username]
+style_user = "blue bold"
+style_root = "red bold"
+format = "user: [$user]($style) "
+disabled = false
+show_always = true
+
+[line_break]
+disabled = true
+
+[package]
+disabled = true 
