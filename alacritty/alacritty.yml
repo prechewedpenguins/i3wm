@@ -1,57 +1,50 @@
-items:
-  - colors:
-      # Default colors
-      primary:
-        background: '#2E3440'
-        foreground: '#D8DEE9'
 
-      # Normal colors
-      normal:
-        black: '#3B4252'
-        red: '#BF616A'
-        green: '#A3BE8C'
-        yellow: '#EBCB8B'
-        blue: '#81A1C1'
-        magenta: '#B48EAD'
-        cyan: '#88C0D0'
-        white: '#E5E9F0'
 
-      # Bright colors
-      bright:
-        black: '#4C566A'
-        red: '#BF616A'
-        green: '#A3BE8C'
-        yellow: '#EBCB8B'
-        blue: '#81A1C1'
-        magenta: '#B48EAD'
-        cyan: '#8FBCBB'
-        white: '#ECEFF4'
-  - theme: Nord
+
+
+
+
+
+
+
+
+window:
+    dimensions:
+      columns: 90
+      lines: 25
+    # Spread additional padding evenly around the terminal content
+    dynamic_padding: true
+
+
 colors:
-  # Default colors
   primary:
-    background: '#2E3440'
-    foreground: '#D8DEE9'
-
-  # Normal colors
+    background: "#FAFAFA"
+    foreground: "#5C6166"
   normal:
-    black: '#3B4252'
-    red: '#BF616A'
-    green: '#A3BE8C'
-    yellow: '#EBCB8B'
-    blue: '#81A1C1'
-    magenta: '#B48EAD'
-    cyan: '#88C0D0'
-    white: '#E5E9F0'
+    black: "#5C6166"
+    red: "#F07171"
+    green: "#86B300"
+    yellow: "#F2AE49"
+    blue: "#399EE6"
+    magenta: "#A37ACC"
+    cyan: "#4CBF99"
+    white: "#BABDC3"
+bright:
+  black: "#9EA7B3"
+  red: "#F28779"
+  green: "#AAD94C"
+  yellow: "#FFD173"
+  blue: "#73D0FF"
+  magenta: "#DFBFFF"
+  cyan: "#95E6CB"
+  white: "#D1D1D1"
 
-  # Bright colors
-  bright:
-    black: '#4C566A'
-    red: '#BF616A'
-    green: '#A3BE8C'
-    yellow: '#EBCB8B'
-    blue: '#81A1C1'
-    magenta: '#B48EAD'
-    cyan: '#8FBCBB'
-    white: '#ECEFF4'
-theme: Nord
+scrolling:
+  history: 1000
+
+cursor:
+  style:
+    shape: Underline
+    blinking: "On"
+
+
